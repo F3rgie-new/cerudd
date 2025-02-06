@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+/* form Login */
+.judul {
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.judul2 {
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #F4E7FB;
+    font-size: 64;
+}
+
+.login-box {
+  float: right;
+  margin-right: 300px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  width:500px;
+  height:500px;
+  border-radius: 20px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+
+label {
+    font-size: 20px;
+}
+
+.tombol_login {
+    background-color: #C8A8E9;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+/* form regster*/
+
+.register-box {
+    float: right;
+    margin-right: 300px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width:500px;
+    height:600px;
+    border-radius: 20px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.register-box .user-box {
+    position: relative;
+  }
+
+.register-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+  }
+.register-box .user-box label {
+    position: absolute;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #000000;
+  }

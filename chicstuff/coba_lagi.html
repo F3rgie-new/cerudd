@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pemesanan Makanan</title>
+</head>
+<body>
+    <h2>Pemesanan Makanan</h2>
+    <label for="menu">Pilih Makanan:</label>
+    <select id="menu">
+        <option value="50000">Makanan A - Rp 50000</option>
+        <option value="30000">Makanan B - Rp 30000</option>
+    </select>
+    <br>
+    <label for="jumlah">Jumlah:</label>
+    <input type="number" id="jumlah" min="0">
+    <br>
+    <button onclick="hitung()">Hitung</button>
+    <h3>Total: Rp <span id="total">0</span></h3>
+
+    <script>
+        function hitung() {
+            var menu = document.getElementById('menu');
+            var jumlah = document.getElementById('jumlah');
+            var total = menu.value * jumlah.value;
+            document.getElementById('total').innerText = total;
+        }
+    </script>
+</body>
+</html>
